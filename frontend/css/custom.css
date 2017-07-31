@@ -1,0 +1,25 @@
+.modal-dialog, .modal-content{
+	z-index:1051;
+}
+
+.table > tbody > tr > td.actions {
+	max-width: 100px;
+	text-align: center;
+}
+
+.table > tbody > tr > td.actions button {
+	margin: .2rem;
+}
+
+/*  #Mobile (Portrait)
+================================================== */
+/* Note: Design for a width of 320px */
+@media all and (max-width: 479px) {
+    .email-column {
+        display:none;
+		width:0;
+		height:0;
+		opacity:0;
+		visibility: collapse
+    }    
+}

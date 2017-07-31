@@ -1,0 +1,22 @@
+{
+  "name": "diegovilarinho/phonebook-api",
+  "description": "Application created to carry out an aptitude test for MadeiraMadeira",
+  "authors": [
+    {
+      "name": "Diego Vilarinho",
+      "email": "developer@diegovilarinho.com.br"
+    }
+  ],
+  "require": {
+    "phpunit/phpunit": "^6.2",
+    "guzzlehttp/guzzle": "^6.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "Entity\\": "api/Entity/",
+      "Model\\": "api/Model/",
+      "Controller\\": "api/Controller/",
+      "View\\": "api/View/"
+    }
+  }
+}
