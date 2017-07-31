@@ -66,14 +66,14 @@ private $password = "bddv102";
 - Adicione a URL do virtual host criado acima para a API no arquivo: `api/Test/Api/ApiResourcesTest.php`. Na linha 16 Deixe algo como o exemplo abaixo:
 
 ```php
-$this->http = new \GuzzleHttp\Client(['base_uri' => 'http://api.phonebook.mmadeira.dev/']);
+$this->http = new \GuzzleHttp\Client(['base_uri' => 'http://api.phonebook.dev/']);
 ```
 
 - Adicione a URL do virtual host criado acima para a API também no arquivo: `frontend/index.php`. A partir da linha 150 Deixe algo como o exemplo abaixo:
 
 ```html
 <script type="text/javascript">
-	var url = "http://api.phonebook.mmadeira.dev/";
+	var url = "http://api.phonebook.dev/";
 </script>
 ```
 
